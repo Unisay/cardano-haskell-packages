@@ -167,6 +167,7 @@
         };
         marlowe-runtime = {
           ghc810.enabled = v : false;
+          ghc92.enabled = v : false;
           ghc96.enabled = v : false;
           ghc98.enabled = v : false;
         };
@@ -248,10 +249,12 @@
                 cardano-ledger-alonzo.doHaddock = false;
                 cardano-ledger-api.doHaddock = false;
                 cardano-ledger-conway.doHaddock = false;
+                cardano-ledger-core.doHaddock = false;
                 cardano-ledger-babbage.doHaddock = false;
                 cardano-ledger-shelley.doHaddock = false;
                 cardano-protocol-tpraos.doHaddock = false;
                 ouroboros-network.doHaddock = false;
+                ouroboros-consensus.doHaddock = false;
                 ouroboros-consensus-cardano.doHaddock = false;
               };
             }
